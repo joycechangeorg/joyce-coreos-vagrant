@@ -10,8 +10,7 @@
     ```
 - 'vagrant up' or 'vagrant reload', and enter your mac's password when asked
 - 'vagrant ssh' to get inside the vm
-- once inside the machien
-    - `cd /damper`
+- once inside the machien,  `cd /damper`
     ```bash
     docker-compose build
     docker-compose down && docker-compose up

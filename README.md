@@ -4,10 +4,10 @@
 - install vagrant for mac https://www.vagrantup.com/downloads.html
 - git clone
 - edit Vagrantfile
-```ruby
-$shared_folders = {"/Users/joycechan/work/damper"=> "/damper"}
-#$forwarded_ports = {8080=>8080, 3306=>3306, 5433=>5433}
-```
+    ```ruby
+    $shared_folders = { '/Users/joycechan/work/damper' => '/damper' }
+    $forwarded_ports = { 8080 => 8080, 3306 => 3306, 5433 => 5433 }
+    ```
 - 'vagrant up' or 'vagrant reload', and enter your mac's password when asked
 - 'vagrant ssh' to get inside the vm
 - once inside the machien `cd /damper`
